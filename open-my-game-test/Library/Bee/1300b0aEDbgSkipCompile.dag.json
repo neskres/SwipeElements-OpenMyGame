@@ -1,0 +1,384 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "DisplayName": null,
+      "Inputs": [],
+      "Outputs": [],
+      "ToBuildDependencies": [
+        1,
+        2,
+        3
+      ],
+      "OverwriteOutputs": false,
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "ScriptAssemblies",
+      "DisplayName": null,
+      "Inputs": [],
+      "Outputs": [],
+      "OverwriteOutputs": false,
+      "DebugActionIndex": 1
+    },
+    {
+      "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
+      "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
+      "Action": "\"/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Assets/CodeBase/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Assets/CodeBase/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Mdb.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Assets/CodeBase/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Pdb.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Assets/CodeBase/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Rocks.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Assets/CodeBase/Plugins/Zenject/Source/Usage/Zenject-usage.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Assets/Plugins/Demigiant/DOTween/DOTween.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/ScriptAssemblies/UniRx.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/ScriptAssemblies/UniRx.Examples.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/ScriptAssemblies/UniTask.Addressables.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/ScriptAssemblies/UniTask.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/ScriptAssemblies/UniTask.DOTween.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/ScriptAssemblies/UniTask.Linq.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/ScriptAssemblies/UniTask.TextMeshPro.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/ScriptAssemblies/Unity.Burst.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/ScriptAssemblies/Unity.Collections.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/ScriptAssemblies/Unity.Mathematics.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/ScriptAssemblies/Unity.Timeline.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/ScriptAssemblies/Unity.VisualScripting.State.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/ScriptAssemblies/UnityEngine.UI.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/ScriptAssemblies/Zenject.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/ScriptAssemblies/Zenject-IntegrationTests.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/ScriptAssemblies/Zenject-IntegrationTests-Editor.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.Unsafe.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/PackageCache/com.unity.testtools.codecoverage@1.2.5/lib/ReportGenerator/ReportGeneratorMerged.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll\" -a=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/PackageCache/jillejr.newtonsoft.json-for-unity@f2c6cb0981/Plugins/Newtonsoft.Json Editor/Newtonsoft.Json.dll\" -s=\"/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Managed/UnityEngine\" -s=\"/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx\" -s=\"/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/NetStandard/Extensions/2.0.0\" -s=\"/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/NetStandard/ref/2.1.0\" -s=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Assets/CodeBase/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib\" -s=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Assets/CodeBase/Plugins/Zenject/Source/Usage\" -s=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Assets/Plugins/Demigiant/DOTween\" -s=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/ScriptAssemblies\" -s=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/PackageCache/com.unity.burst@1.8.12\" -s=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.CodeGen\" -s=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport\" -s=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -s=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/PackageCache/com.unity.testtools.codecoverage@1.2.5/lib/ReportGenerator\" -s=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc\" -s=\"/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/PackageCache/jillejr.newtonsoft.json-for-unity@f2c6cb0981/Plugins/Newtonsoft.Json Editor\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Inputs": [
+        "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/netcorerun/netcorerun",
+        "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
+        "Assets/CodeBase/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.dll",
+        "Assets/CodeBase/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Mdb.dll",
+        "Assets/CodeBase/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Pdb.dll",
+        "Assets/CodeBase/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Rocks.dll",
+        "Assets/CodeBase/Plugins/Zenject/Source/Usage/Zenject-usage.dll",
+        "Assets/Plugins/Demigiant/DOTween/DOTween.dll",
+        "Library/ScriptAssemblies/Assembly-CSharp.dll",
+        "Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll",
+        "Library/ScriptAssemblies/UniRx.dll",
+        "Library/ScriptAssemblies/UniRx.Examples.dll",
+        "Library/ScriptAssemblies/UniTask.Addressables.dll",
+        "Library/ScriptAssemblies/UniTask.dll",
+        "Library/ScriptAssemblies/UniTask.DOTween.dll",
+        "Library/ScriptAssemblies/UniTask.Linq.dll",
+        "Library/ScriptAssemblies/UniTask.TextMeshPro.dll",
+        "Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll",
+        "Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll",
+        "Library/ScriptAssemblies/Unity.Burst.dll",
+        "Library/ScriptAssemblies/Unity.Collections.dll",
+        "Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll",
+        "Library/ScriptAssemblies/Unity.Mathematics.dll",
+        "Library/ScriptAssemblies/Unity.TextMeshPro.dll",
+        "Library/ScriptAssemblies/Unity.Timeline.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.State.dll",
+        "Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
+        "Library/ScriptAssemblies/UnityEngine.UI.dll",
+        "Library/ScriptAssemblies/Zenject.dll",
+        "Library/ScriptAssemblies/Zenject-IntegrationTests.dll",
+        "Library/ScriptAssemblies/Zenject-IntegrationTests-Editor.dll",
+        "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll",
+        "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll",
+        "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll",
+        "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll",
+        "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.Unsafe.dll",
+        "Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll",
+        "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.testtools.codecoverage@1.2.5/lib/ReportGenerator/ReportGeneratorMerged.dll",
+        "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
+        "Library/PackageCache/jillejr.newtonsoft.json-for-unity@f2c6cb0981/Plugins/Newtonsoft.Json Editor/Newtonsoft.Json.dll"
+      ],
+      "Outputs": [
+        "Library/BuildPlayerData/Editor/TypeDb-All.json"
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 2
+    },
+    {
+      "Annotation": "ScriptAssembliesAndTypeDB",
+      "DisplayName": null,
+      "Inputs": [],
+      "Outputs": [],
+      "ToBuildDependencies": [
+        1,
+        2
+      ],
+      "OverwriteOutputs": false,
+      "DebugActionIndex": 3
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/Bee.BuildTools.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Core.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/Bee.CSharpSupport.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/Bee.DotNet.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Stevedore.Program.exe"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Tools.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/Bee.TundraBackend.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/Newtonsoft.Json.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/NiceIO.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/SharpYaml.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Api.Attributes.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Linker.Api.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Options.dll"
+    },
+    {
+      "File": "Library/Bee/1300b0aEDbgSkipCompile-inputdata.json"
+    }
+  ],
+  "StatSignatures": [
+    {
+      "File": "/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/getconf"
+    },
+    {
+      "File": "Assets/CodeBase/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.dll"
+    },
+    {
+      "File": "Assets/CodeBase/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Mdb.dll"
+    },
+    {
+      "File": "Assets/CodeBase/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Pdb.dll"
+    },
+    {
+      "File": "Assets/CodeBase/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Rocks.dll"
+    },
+    {
+      "File": "Assets/CodeBase/Plugins/Zenject/Source/Usage/Zenject-usage.dll"
+    },
+    {
+      "File": "Assets/csc.rsp"
+    },
+    {
+      "File": "Assets/mcs.rsp"
+    },
+    {
+      "File": "Assets/Plugins/Demigiant/DOTween/DOTween.dll"
+    },
+    {
+      "File": "Library/Bee/1300b0aEDbgSkipCompile-inputdata.json"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.Unsafe.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.testtools.codecoverage@1.2.5/lib/ReportGenerator/ReportGeneratorMerged.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+    },
+    {
+      "File": "Library/PackageCache/jillejr.newtonsoft.json-for-unity@f2c6cb0981/Plugins/Newtonsoft.Json Editor/Newtonsoft.Json.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Assembly-CSharp.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UniRx.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UniRx.Examples.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UniTask.Addressables.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UniTask.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UniTask.DOTween.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UniTask.Linq.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UniTask.TextMeshPro.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Burst.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Collections.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Mathematics.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.TextMeshPro.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Timeline.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.VisualScripting.State.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UnityEngine.TestRunner.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UnityEngine.UI.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Zenject-IntegrationTests-Editor.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Zenject-IntegrationTests.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Zenject.dll"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/BuildPipeline"
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".pdb"
+  ],
+  "StructuredLogFileName": "Library/Bee/tundra.log.json",
+  "StateFileName": "Library/Bee/TundraBuildState.state",
+  "StateFileNameTmp": "Library/Bee/TundraBuildState.state.tmp",
+  "StateFileNameMapped": "Library/Bee/TundraBuildState.state.map",
+  "ScanCacheFileName": "Library/Bee/tundra.scancache",
+  "ScanCacheFileNameTmp": "Library/Bee/tundra.scancache.tmp",
+  "DigestCacheFileName": "Library/Bee/tundra.digestcache",
+  "DigestCacheFileNameTmp": "Library/Bee/tundra.digestcache.tmp",
+  "CachedNodeOutputDirectoryName": "Library/Bee/CachedNodeOutput",
+  "EmitDataForBeeWhy": 0,
+        "NamedNodes": {
+          "all_tundra_nodes": 0,
+          "ScriptAssemblies": 1,
+          "ScriptAssembliesAndTypeDB": 3
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "Library/Bee/1300b0aEDbgSkipCompile.dag.json",
+  "PayloadsFile": "/Users/kristinapozhoha/Desktop/tesk-swipe-elenents/open-my-game-test/Library/Bee/1300b0aEDbgSkipCompile.dag.payloads",
+  "RelativePathToRoot": "../.."
+}
