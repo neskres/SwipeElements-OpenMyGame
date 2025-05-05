@@ -9,7 +9,9 @@ namespace GameUI.Presentation.Presenters
     public class BlockPresenter
     {
         private readonly IBlockView _view;
+        
         private readonly BlockType _type;
+        public BlockType Type => _type;
 
         public bool IsBusy => _view.IsBusy;
         public bool IsDestroying => _view.IsDestroying;

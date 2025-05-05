@@ -156,9 +156,17 @@ namespace GameUI.Presentation.Presenters
 
                 if (_views.TryGetValue(c, out var existing) && !existing.IsDestroying)
                 {
-                    existing.MoveTo(_view.CoordToPos(c));
-                    fresh[c] = existing;
-                    continue;
+                    if (existing.Type == block.Type)
+                    {
+                        existing.MoveTo(_view.CoordToPos(c));
+                        fresh[c] = existing;
+                        continue;
+                    }
+                    else
+                    {
+                        GameObject.Destroy(existing.Transform.gameObject);
+                        _views.Remove(c);
+                    }
                 }
 
                 var view = _blockPool.Spawn(_view.Root);
