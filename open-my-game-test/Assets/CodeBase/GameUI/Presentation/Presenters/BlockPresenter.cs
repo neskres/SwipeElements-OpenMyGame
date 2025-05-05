@@ -1,5 +1,6 @@
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
+using Game.Board.Data;
 using Game.Shared.StaticData;
 using GameUI.Presentation.Views;
 using UnityEngine;
@@ -43,6 +44,14 @@ namespace GameUI.Presentation.Presenters
         public UniTask PlayDestroyAsync()
         {
             return _view.PlayDestroyAsync();
+        }
+         
+        public void UpdateSortingOrder(BoardCoordinates coord, int boardWidth)
+        {
+            int sortingOrder = coord.Y * boardWidth + coord.X;
+            var sr = View.GetComponent<SpriteRenderer>();
+            if (sr != null)
+                sr.sortingOrder = sortingOrder;
         }
 
         public void Reset()

@@ -154,6 +154,8 @@ namespace GameUI.Presentation.Presenters
                 var block = (Block)state.Get(c.X, c.Y);
                 if (block.Type == BlockType.Empty) continue;
 
+                int sortingOrder = c.Y * _rules.Width + c.X;
+
                 if (_views.TryGetValue(c, out var existing) && !existing.IsDestroying)
                 {
                     if (existing.Type == block.Type)
@@ -168,14 +170,14 @@ namespace GameUI.Presentation.Presenters
                         _views.Remove(c);
                     }
                 }
-
                 var view = _blockPool.Spawn(_view.Root);
                 var presenter = new BlockPresenter(view, block.Type);
                 presenter.Initialize(
                     _visualCache.GetOverride(block.Type),
                     UnityEngine.Random.value,
-                    c.Y
+                    sortingOrder
                 );
+                
                 presenter.SetLocalPosition(_view.CoordToPos(c));
                 presenter.MoveTo(_view.CoordToPos(c));
                 fresh[c] = presenter;
@@ -184,7 +186,7 @@ namespace GameUI.Presentation.Presenters
             foreach (var kv in _views)
                 if (!kv.Value.IsDestroying && !fresh.ContainsValue(kv.Value))
                     GameObject.Destroy(kv.Value.Transform.gameObject);
-
+            
             _views.Clear();
             foreach (var kv in fresh)
                 _views[kv.Key] = kv.Value;
@@ -205,6 +207,9 @@ namespace GameUI.Presentation.Presenters
             else _views.Remove(b);
             if (bHas) _views[a] = vb;
             else _views.Remove(a);
+            
+            if (aHas) va.UpdateSortingOrder(b, _rules.Width);
+            if (bHas) vb.UpdateSortingOrder(a, _rules.Width);
 
             return UniTask.WhenAll(ta, tb);
         }
